@@ -1,1 +1,117 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --primary-color: #0F335B;
+  --secondary-color: #4D5358;
+  --background-color: #EBF3FA;
+  --sidebar-color: #E3EFF8;
+  --border-color: #D9E7F5;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: var(--sidebar-color);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+}
+
+.sidebar ul li a i {
+  margin-right: 10px;
+}
+
+.user-profile {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.user-info-row {
+  display: flex;
+  align-items: center;
+}
+
+.user-profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-info {
+  flex-grow: 1;
+}
+
+.sign-out {
+  text-decoration: none;
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+}
+
+.sign-out i {
+  margin-right: 10px;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.header {
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: var(--primary-color);
+  color: #FFFFFF;
+}
+
+.charts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chart {
+  width: 48%;
+}
+
+h1, h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footer {
+  background-color: var(--secondary-color);
+  color: #FFFFFF;
+}
+
