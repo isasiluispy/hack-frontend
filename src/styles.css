@@ -102,6 +102,7 @@ html, body {
   color: var(--primary-color);
   display: flex;
   align-items: center;
+  margin-top: 40px;
 }
 
 .sign-out i {
