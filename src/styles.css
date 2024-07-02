@@ -148,3 +148,7 @@ h1, h2 {
 .spaced-list li {
   margin-bottom: 10px;
 }
+
+.population-chart-title {
+  font-weight: 500;
+}
