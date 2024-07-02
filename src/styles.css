@@ -7,6 +7,12 @@
   --border-color: #D9E7F5;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden; /* Prevents scrollbar */
+}
+
 body {
   background-color: var(--background-color);
   color: var(--primary-color);
@@ -15,7 +21,7 @@ body {
 
 .container {
   display: flex;
-  height: 100vh;
+  height: 100vh; /* Revert back to height */
 }
 
 .sidebar {
@@ -114,4 +120,3 @@ h1, h2 {
   background-color: var(--secondary-color);
   color: #FFFFFF;
 }
-
