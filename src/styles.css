@@ -34,6 +34,11 @@ html, body {
   height: 100%;
 }
 
+.header-logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .sidebar {
   flex: 0 0 15%;
   background-color: var(--sidebar-color);
