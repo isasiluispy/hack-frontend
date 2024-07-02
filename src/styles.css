@@ -61,7 +61,7 @@ html, body {
 }
 
 .sidebar ul li {
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 
 .sidebar ul li a {
@@ -142,4 +142,8 @@ h1, h2 {
 .footer {
   background-color: var(--secondary-color);
   color: #FFFFFF;
+}
+
+.spaced-list li {
+  margin-bottom: 10px;
 }
