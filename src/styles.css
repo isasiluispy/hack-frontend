@@ -42,6 +42,7 @@ html, body {
   flex-direction: column;
   justify-content: space-between;
   margin-right: 30px;
+  border-radius: 10px; /* Added border-radius */
 }
 
 .logo img {
@@ -106,6 +107,7 @@ html, body {
   flex: 1;
   padding: 20px;
   background-color: white;
+  border-radius: 10px; /* Added border-radius */
 }
 
 .header {
