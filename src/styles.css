@@ -110,9 +110,9 @@ html, body {
 
 .main-content {
   flex: 1;
-  padding: 20px;
+  padding: 20px 40px;
   background-color: white;
-  border-radius: 10px; /* Added border-radius */
+  border-radius: 10px;
 }
 
 .header {
@@ -127,8 +127,12 @@ html, body {
   justify-content: space-between;
 }
 
-.chart {
-  width: 48%;
+.chart-population {
+  width: 60%;
+}
+
+.chart-vehicle {
+  width: 30%;
 }
 
 h1, h2 {
