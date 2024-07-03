@@ -32,6 +32,7 @@ export class VehicleChartComponent implements OnInit {
 
   public pieChartOptions: ChartOptions<'pie'> = {
     responsive: true,
+    maintainAspectRatio: false, // Add this line
     plugins: {
       legend: {
         display: false, // Disable the legend

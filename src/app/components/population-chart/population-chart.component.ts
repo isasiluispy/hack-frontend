@@ -34,6 +34,7 @@ export class PopulationChartComponent implements OnInit {
 
   public lineChartOptions: ChartOptions<'line'> = {
     responsive: true,
+    maintainAspectRatio: false,
   };
 
   constructor(private apollo: Apollo) {}
