@@ -7,10 +7,10 @@
       <img src="http://wiki.snoutslouts.org/images/8/89/Sample_profile_pic.jpg" alt="User Image" (click)="toggleDropdown()">
       <div *ngIf="isDropdownVisible" class="dropdown-menu">
         <ul>
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#">Accounts</a></li>
-          <li><a href="#">Activities</a></li>
-          <li><a href="#">Sign Out</a></li>
+          <li><a href="#" (click)="closeDropdown()">Dashboard</a></li>
+          <li><a href="#" (click)="closeDropdown()">Accounts</a></li>
+          <li><a href="#" (click)="closeDropdown()">Activities</a></li>
+          <li><a href="#" (click)="closeDropdown()">Sign Out</a></li>
         </ul>
       </div>
     </div>

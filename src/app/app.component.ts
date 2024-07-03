@@ -18,4 +18,8 @@ export class AppComponent {
   toggleDropdown() {
     this.isDropdownVisible = !this.isDropdownVisible;
   }
+
+  closeDropdown() {
+    this.isDropdownVisible = false;
+  }
 }
