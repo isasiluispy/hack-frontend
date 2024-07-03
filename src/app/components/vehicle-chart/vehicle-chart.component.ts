@@ -32,10 +32,10 @@ export class VehicleChartComponent implements OnInit {
 
   public pieChartOptions: ChartOptions<'pie'> = {
     responsive: true,
-    maintainAspectRatio: false, // Add this line
+    maintainAspectRatio: false,
     plugins: {
       legend: {
-        display: false, // Disable the legend
+        display: false,
       },
     },
   };
@@ -53,7 +53,7 @@ export class VehicleChartComponent implements OnInit {
           datasets: [
             {
               data: data.vehicleData.map((d: VehicleData) => d.households),
-              backgroundColor: ['red', 'blue', 'green', 'yellow', 'orange'],
+              backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#FF9F40', '#4BC0C0'],
             },
           ],
         };
