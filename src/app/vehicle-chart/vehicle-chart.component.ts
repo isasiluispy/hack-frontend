@@ -19,7 +19,7 @@ interface VehicleData {
 }
 
 @Component({
-  selector: 'app-vehicle-chart',
+  selector: 'vehicle-chart',
   standalone: true,
   imports: [CommonModule, BaseChartDirective],
   templateUrl: './vehicle-chart.component.html',

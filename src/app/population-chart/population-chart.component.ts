@@ -21,7 +21,7 @@ interface PopulationData {
 }
 
 @Component({
-  selector: 'app-population-chart',
+  selector: 'population-chart',
   standalone: true,
   imports: [CommonModule, BaseChartDirective],
   templateUrl: './population-chart.component.html',
