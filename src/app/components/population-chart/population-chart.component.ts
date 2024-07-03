@@ -55,19 +55,22 @@ export class PopulationChartComponent implements OnInit {
             {
               data: alabama.map((d: PopulationData) => d.population),
               label: 'Alabama',
-              borderColor: 'red',
+              borderColor: 'rgba(255, 99, 132, 1)',
+              backgroundColor: 'rgba(255, 99, 132, 0.2)',
               fill: false,
             },
             {
               data: florida.map((d: PopulationData) => d.population),
               label: 'Florida',
-              borderColor: 'blue',
+              borderColor: 'rgba(54, 162, 235, 1)',
+              backgroundColor: 'rgba(54, 162, 235, 0.2)',
               fill: false,
             },
             {
               data: california.map((d: PopulationData) => d.population),
               label: 'California',
-              borderColor: 'green',
+              borderColor: 'rgba(75, 192, 192, 1)',
+              backgroundColor: 'rgba(75, 192, 192, 0.2)',
               fill: false,
             }
           ],
