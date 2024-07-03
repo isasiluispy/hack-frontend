@@ -7,6 +7,26 @@
   box-sizing: border-box;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+
+  .user-img {
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    @media (min-width: 1024px) {
+      display: none;
+    }
+  }
+}
+
 .container {
   display: flex;
   width: 100%;
@@ -28,13 +48,6 @@
   padding: 20px 40px;
   background-color: white;
   border-radius: 10px;
-}
-
-.header {
-  margin-bottom: 20px;
-  text-align: center;
-  background-color: var(--primary-color);
-  color: #FFFFFF;
 }
 
 .charts {
@@ -100,10 +113,6 @@ h1, h2 {
 
   .main-content {
     padding: 10px 20px;
-  }
-
-  .header {
-    font-size: 1.2em;
   }
 
   .charts {

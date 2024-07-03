@@ -13,4 +13,9 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 })
 export class AppComponent {
   title = 'hackett-frontend';
+  isDropdownVisible = false;
+
+  toggleDropdown() {
+    this.isDropdownVisible = !this.isDropdownVisible;
+  }
 }
